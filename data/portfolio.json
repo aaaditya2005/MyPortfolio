@@ -1,0 +1,142 @@
+{
+  "profile": {
+    "name": "Aditya Gavhane",
+    "role": "MERN Stack Developer | Aspiring AI Engineer",
+    "headline": "Creating solutions for real-world problems with easy interfaces and will advance using modern AI technology",
+    "summary": "",
+    "image": "/assets/profile-placeholder.jpeg",
+    "email": "adityagavhane60@gmail.com",
+    "phone": "+91 7387571927",
+    "location": "India",
+    "resume": "/sample-resume.pdf",
+    "socials": {
+      "github": "https://github.com/aaaditya2005",
+      "linkedin": "https://www.linkedin.com/in/aditya-gavhane-714088324/",
+      "instagram": "https://www.instagram.com/aditya_g.21_09?utm_source=qr"
+    }
+  },
+  "personal": {
+    "title": "My Philosophy & Interests",
+    "guruImage": "/assets/kanha.jpg",
+    "guruLabel": "Bhagwan Krishna is my life guru",
+    "about": "I follow the philosophies of the Mahabharata. I believe Bhagwan Krishna's teachings offer perfect, practical guidance for modern human life.",
+    "hobbies":"Watching - movies, animes, webseries, playing flutes",
+    "adviceTitle": "Best Advice That I Ever Received",
+    "advices": [
+      "Instead of wasting time making the right decision, make a decision and make it right",
+      "Learn from the past, plan for the future, and live in the present",
+      "The world values people who can execute tasks and deliver on time",
+      "You don't become the person that things you do sometimes you become the person that things you do daily so have goof habits"
+    ]
+  },
+    "skills": {
+    "technical": [
+      {
+        "category": "All Skills",
+        "description": "My complete technical stack.",
+        "items": [
+          { "name": "HTML5", "icon": "html" },
+          { "name": "CSS3", "icon": "css" },
+          { "name": "JavaScript", "icon": "javascript" },
+          { "name": "C", "icon": "c" },
+          { "name": "Java", "icon": "java" },
+          { "name": "Python", "icon": "python" },
+          { "name": "SQL", "icon": "sql" },
+          { "name": "MySQL", "icon": "mysql" },
+          { "name": "PostgreSQL", "icon": "postgresql" },
+          { "name": "Bootstrap", "icon": "bootstrap" },
+          { "name": "Tailwind CSS", "icon": "tailwind" },
+          { "name": "Node JS", "icon": "node" },
+          { "name": "Express JS", "icon": "express" },
+          { "name": "React JS", "icon": "react" },
+          { "name": "Mongo DB", "icon": "mongodb" },
+          { "name": "VS Code", "icon": "vscode" },
+          { "name": "Git", "icon": "git" },
+          { "name": "GitHub", "icon": "github" },
+          { "name": "Postman", "icon": "postman" },
+          { "name": "GitHub Copilot", "icon": "copilot" },
+          { "name": "WebSockets", "icon": "websockets" },
+          { "name": "Socket.io", "icon": "socketio" },
+          { "name": "NumPy", "icon": "numpy" },
+          { "name": "Pandas", "icon": "pandas" },
+          { "name": "Matplotlib", "icon": "matplotlib" },
+          { "name": "Seaborn", "icon": "seaborn" },
+          { "name": "Machine Learning", "icon": "ml" }
+        ]
+      }
+    ],
+    "nonTechnical": [
+      { "name": "Problem Solving", "icon": "lightbulb" },
+      { "name": "Communication", "icon": "message" },
+      { "name": "Team Work", "icon": "users" },
+      { "name": "Time Management", "icon": "clock" },
+      { "name": "Leadership", "icon": "compass" },
+      { "name": "Adaptability", "icon": "brain" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Portfolio Template",
+      "type": "Personal Brand",
+      "imageTone": "gold",
+      "description": "This current portfolio is also a starter project: dark mode, editable content, skill filtering, timeline education, and clean project cards.",
+      "tech": ["React", "Express", "JSON"],
+      "github": "https://github.com/your-username/portfolio",
+      "live": "https://example.com"
+    }
+  ],
+"experience": [
+    {
+      "title": "Senior Co-ordinator",
+      "place": "@RND CELL, CCA, NIT DURGAPUR",
+      "period": "May 2026 - Present",
+      "description": "• Leadership & Events: Executed multiple events through cross-functional teamwork.\n\n• Mentorship & Delivery: Guided junior members as a 3rd-year Senior Coordinator, providing learning resources, project suggestions, and managing strict timelines.\n\n• Digital Growth: Started the launch of the R&D Cell's independent Instagram handle, securing approval via a long-term commitment to active content strategy.\n\n• Others: Hosted the Connect 3.0 fresher quiz event and developed domain-specific engineering projects showcased at Techmela.",
+      "projectLink": "https://example.com"
+    }
+  ],
+  "education": [
+    {
+      "title": "Class 10th",
+      "institution": "Kai.Narsingrao Chavhan Madhyamik Vidyalaya, Nalegaon",
+      "board": "MH State Board",
+      "period": "2020 - 2021",
+      "score": "Marks: 100%",
+      "status": "Completed"
+    },
+    {
+      "title": "Class 12th",
+      "institution": "Rajrshi Shahu Mahavidyalaya, Latur",
+      "board": "MH State Board",
+      "period": "2022 - 2023",
+      "score": "Marks: 78.17%",
+      "status": "Completed"
+    },
+    {
+      "title": "B.Tech Biotechnology",
+      "institution": "NIT DURGAPUR",
+      "period": "2024 - Present",
+      "score": "Current CGPA: 8.23",
+      "status": "5th Semester, 2024 - 2028"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "JAVA WITH DSA",
+      "period": "09-2024",
+      "description": "Learnt all DSA concepts along with Java from PW",
+      "proof": "https://drive.google.com/file/d/16vqN1b_foqIhPUykUzqo2kJ8yzc3RNp4/view?usp=sharing"
+    },
+    {
+      "title": "MATHS FOR DATA SCIENCE AND GEN AI",
+      "period": "03-2026",
+      "description": "Course helped to learn compelx maths required ai technolodies in order to enhance in field of genai",
+      "proof": "https://drive.google.com/file/d/1cPGy3np9YJ-z89hPE4MdYNs0_51r2Sr1/view?usp=sharing"
+    },
+    {
+      "title": "Solved 400+ Programming Questions",
+      "period": "2024-Present",
+      "description": "300+ diverse programming problems across competitive platforms, sharpening expertise in Bit Manipulation, Mathematics, Sql queries and Data Structures",
+      "proof": "https://codolio.com/profile/code_algo"
+    }
+  ]
+}
