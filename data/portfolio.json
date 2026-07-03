@@ -76,13 +76,14 @@
   },
   "projects": [
     {
-      "title": "Portfolio Template",
+      "title": "Bond - A Chat Application",
       "type": "Personal Brand",
       "imageTone": "gold",
-      "description": "This current portfolio is also a starter project: dark mode, editable content, skill filtering, timeline education, and clean project cards.",
-      "tech": ["React", "Express", "JSON"],
-      "github": "https://github.com/your-username/portfolio",
-      "live": "https://example.com"
+      "image": "/assets/bond-screenshot.png",
+      "description": "BOND is a real time chat application built using MERN stack.This application is diff from other chat application which has different features like features from whatsapp,snapchat and linkedin.Main motive to built is making emotional connect to talk.",
+      "tech": ["MERN Stack"],
+      "github": "https://github.com/aaaditya2005/Bond",
+      "live": "https://bond-chat.onrender.com/"
     }
   ],
 "experience": [

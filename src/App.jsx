@@ -170,10 +170,10 @@ function App() {
             title="Projects"
             text="Here are few projects that I built"
           />
-          <div className="project-list">
-            {projects.map((project) => (
-              <article className="project-strip" key={project.title}>
-                <ProjectMockup tone={project.imageTone} title={project.title} />
+          <div className="project-list">
+            {projects.map((project) => (
+              <article className="project-strip" key={project.title}>
+                <ProjectMockup image={project.image} tone={project.imageTone} title={project.title} />
                 <div className="project-content">
                   <p className="eyebrow">{project.type}</p>
                   <h3>{project.title}</h3>
@@ -395,33 +395,41 @@ function SectionHeader({ kicker, title, text }) {
   );
 }
 
-function ProjectMockup({ tone, title }) {
-  return (
-    <div className={`project-mockup ${tone}`} aria-label={`${title} website preview`}>
-      <div className="mock-browser">
-        <span />
-        <span />
-        <span />
-      </div>
-      <div className="mock-layout">
-        <div className="mock-sidebar" />
-        <div className="mock-main">
-          <span />
-          <strong />
-          <div className="mock-cards">
-            <i />
-            <i />
-            <i />
-          </div>
-          <div className="mock-lines">
-            <em />
-            <em />
-            <em />
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+function ProjectMockup({ tone, title, image }) {
+  if (image) {
+    return (
+      <div className={`project-mockup image`} aria-label={`${title} website preview`}>
+        <img src={image} alt={`${title} screenshot`} className="project-screenshot" />
+      </div>
+    );
+  }
+
+  return (
+    <div className={`project-mockup ${tone}`} aria-label={`${title} website preview`}>
+      <div className="mock-browser">
+        <span />
+        <span />
+        <span />
+      </div>
+      <div className="mock-layout">
+        <div className="mock-sidebar" />
+        <div className="mock-main">
+          <span />
+          <strong />
+          <div className="mock-cards">
+            <i />
+            <i />
+            <i />
+          </div>
+          <div className="mock-lines">
+            <em />
+            <em />
+            <em />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default App;
