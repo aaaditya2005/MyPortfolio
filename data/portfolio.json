@@ -77,9 +77,9 @@
   "projects": [
     {
       "title": "Bond - A Chat Application",
-      "type": "Personal Brand",
+      "type": "Project",
       "imageTone": "gold",
-      "image": "/assets/bond-screenshot.png",
+      "image": "/assets/public/assets/Screenshot 2026-07-03 162114.png",
       "description": "BOND is a real time chat application built using MERN stack.This application is diff from other chat application which has different features like features from whatsapp,snapchat and linkedin.Main motive to built is making emotional connect to talk.",
       "tech": ["MERN Stack"],
       "github": "https://github.com/aaaditya2005/Bond",
