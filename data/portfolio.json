@@ -8,7 +8,7 @@
     "email": "adityagavhane60@gmail.com",
     "phone": "+91 7387571927",
     "location": "India",
-    "resume": "/sample-resume.pdf",
+    "resume": "https://drive.google.com/file/d/1HwO9MCTZrQ1i2Gv_2wbutLdxSHyE4bS5/view?usp=sharing",
     "socials": {
       "github": "https://github.com/aaaditya2005",
       "linkedin": "https://www.linkedin.com/in/aditya-gavhane-714088324/",
@@ -29,14 +29,12 @@
       "You don't become the person that things you do sometimes you become the person that things you do daily so have goof habits"
     ]
   },
-    "skills": {
+  "skills": {
     "technical": [
       {
-  "category": "All Skills",
-  "description": "My complete technical stack.",
-  "items": 
-    {
-      [
+        "category": "All Skills",
+        "description": "My complete technical stack.",
+        "items": [
         { "name": "HTML", "icon": "html" },
         { "name": "CSS", "icon": "css" },
         { "name": "JavaScript", "icon": "javascript" },
@@ -62,9 +60,8 @@
         { "name": "WebSockets", "icon": "websockets" },
         { "name": "NumPy", "icon": "numpy" },
         { "name": "Pandas", "icon": "pandas" }
-      ]
-    }
-
+        ]
+      }
     ],
     "nonTechnical": [
       { "name": "Problem Solving", "icon": "lightbulb" },
@@ -80,27 +77,27 @@
     "title": "TapMart",
     "type": "Project",
     "imageTone": "gold",
-    "image": "/assets/public/assets/TapMart.png",
+    "image": "/assets/TapMart.png",
     "description": "TapMart is a modern e-commerce storefront built for a smooth online shopping experience. It includes product browsing, cart management, checkout flow, order tracking, and admin product handling with a clean and responsive interface.",
     "tech": ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "Cloudinary", "JWT", "Multer"],
-    "github": "https://github.com/yourusername/tapmart",
+    "github": "https://github.com/aaaditya2005/tapmart",
     "live": "https://tapmart-front.onrender.com"
     },
     {
     "title": "Tap",
     "type": "Project",
     "imageTone": "gold",
-    "image": "/assets/public/assets/Tap.png",
+    "image": "/assets/Tap.png",
     "description": "Tap is a real-time chat application built with the MERN stack and Socket.IO. It supports one-to-one messaging, image sharing, user authentication, profiles, and live community chat rooms with room creation, private passwords, member limits, and real-time member tracking.",
     "tech": ["MERN Stack", "Socket.IO"],
     "github": "https://github.com/aaaditya2005/Tap",
-    "live": "tap-alpha-three.vercel.app"
+    "live": "https://tap-alpha-three.vercel.app"
    },
     {
       "title": "Banking Transaction API",
       "type": "Project",
       "imageTone": "gold",
-      "image": "/assets/public/assets/BankingTransactionAPI.png",
+      "image": "/assets/BankingTransactionAPI.svg",
       "description": "A secure banking-style REST API built with Node.js, Express, and MongoDB. It supports JWT authentication, account management, system funding, user-to-user transfers, atomic balance updates, idempotency protection, immutable ledger entries, and transaction email notifications.",
       "tech": ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "REST API"],
       "github": "https://github.com/aaaditya2005/Banking-Transaction-API",

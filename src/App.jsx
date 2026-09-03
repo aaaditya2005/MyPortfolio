@@ -332,7 +332,7 @@ function App() {
           <Github size={20} />
           <span className="action-label">GitHub</span>
         </a>
-        <a href={profile.resume} download aria-label="Download resume" title="Resume">
+                <a href={profile.resume} aria-label="Open resume" title="Resume">
           <ArrowDownToLine size={20} />
           <span className="action-label">Resume</span>
         </a>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Banking Transaction API</title>
+  <desc id="desc">A secure bank connected to an API transaction network.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a2f"/>
+      <stop offset="1" stop-color="#1d5260"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4c86b"/>
+      <stop offset="1" stop-color="#e58a4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#background)"/>
+  <circle cx="1030" cy="105" r="170" fill="#f4c86b" opacity=".12"/>
+  <circle cx="105" cy="590" r="220" fill="#62c7b4" opacity=".1"/>
+  <path d="M145 238 360 125l215 113v28H145z" fill="url(#card)"/>
+  <path d="M180 285h360v210H180z" fill="#f7f3e8"/>
+  <path d="M155 495h410v34H155z" fill="#e58a4f"/>
+  <path d="M215 285v210M325 285v210M435 285v210" stroke="#183047" stroke-width="22"/>
+  <path d="m238 205 122-65 122 65" fill="none" stroke="#183047" stroke-width="18" stroke-linejoin="round"/>
+  <rect x="710" y="215" width="300" height="190" rx="18" fill="#f7f3e8"/>
+  <rect x="744" y="251" width="150" height="18" rx="9" fill="#183047" opacity=".8"/>
+  <rect x="744" y="292" width="232" height="13" rx="6" fill="#62c7b4"/>
+  <rect x="744" y="328" width="190" height="13" rx="6" fill="#183047" opacity=".35"/>
+  <rect x="744" y="364" width="112" height="13" rx="6" fill="#e58a4f"/>
+  <path d="M575 330h135M1010 330h75M850 405v87" fill="none" stroke="#62c7b4" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="575" cy="330" r="17" fill="#62c7b4"/>
+  <circle cx="1085" cy="330" r="17" fill="#62c7b4"/>
+  <circle cx="850" cy="492" r="17" fill="#62c7b4"/>
+  <text x="710" y="485" fill="#f7f3e8" font-family="Georgia, serif" font-size="46" font-weight="700">Banking API</text>
+  <text x="714" y="532" fill="#b8d9d2" font-family="Arial, sans-serif" font-size="22" letter-spacing="2">SECURE TRANSACTIONS</text>
+</svg>
