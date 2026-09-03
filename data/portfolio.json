@@ -2,7 +2,7 @@
   "profile": {
     "name": "Aditya Gavhane",
     "role": "MERN Stack Developer | Aspiring AI Engineer",
-    "headline": "Creating solutions for real-world problems with easy interfaces and will advance using modern AI technology",
+    "headline": "Creating solutions for real-world problems using tools and technologies according to the requiremnets of project",
     "summary": "",
     "image": "/assets/profile-placeholder.jpeg",
     "email": "adityagavhane60@gmail.com",
@@ -32,38 +32,39 @@
     "skills": {
     "technical": [
       {
-        "category": "All Skills",
-        "description": "My complete technical stack.",
-        "items": [
-          { "name": "HTML5", "icon": "html" },
-          { "name": "CSS3", "icon": "css" },
-          { "name": "JavaScript", "icon": "javascript" },
-          { "name": "C", "icon": "c" },
-          { "name": "Java", "icon": "java" },
-          { "name": "Python", "icon": "python" },
-          { "name": "SQL", "icon": "sql" },
-          { "name": "MySQL", "icon": "mysql" },
-          { "name": "PostgreSQL", "icon": "postgresql" },
-          { "name": "Bootstrap", "icon": "bootstrap" },
-          { "name": "Tailwind CSS", "icon": "tailwind" },
-          { "name": "Node JS", "icon": "node" },
-          { "name": "Express JS", "icon": "express" },
-          { "name": "React JS", "icon": "react" },
-          { "name": "Mongo DB", "icon": "mongodb" },
-          { "name": "VS Code", "icon": "vscode" },
-          { "name": "Git", "icon": "git" },
-          { "name": "GitHub", "icon": "github" },
-          { "name": "Postman", "icon": "postman" },
-          { "name": "GitHub Copilot", "icon": "copilot" },
-          { "name": "WebSockets", "icon": "websockets" },
-          { "name": "Socket.io", "icon": "socketio" },
-          { "name": "NumPy", "icon": "numpy" },
-          { "name": "Pandas", "icon": "pandas" },
-          { "name": "Matplotlib", "icon": "matplotlib" },
-          { "name": "Seaborn", "icon": "seaborn" },
-          { "name": "Machine Learning", "icon": "ml" }
-        ]
-      }
+  "category": "All Skills",
+  "description": "My complete technical stack.",
+  "items": 
+    {
+      [
+        { "name": "HTML", "icon": "html" },
+        { "name": "CSS", "icon": "css" },
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "C", "icon": "c" },
+        { "name": "Java", "icon": "java" },
+        { "name": "Python", "icon": "python" },
+        { "name": "SQL", "icon": "sql" },
+        { "name": "PostgreSQL", "icon": "postgresql" },
+        { "name": "Bootstrap", "icon": "bootstrap" },
+        { "name": "Tailwind CSS", "icon": "tailwind" },
+        { "name": "Node JS", "icon": "node" },
+        { "name": "Express JS", "icon": "express" },
+        { "name": "React JS", "icon": "react" },
+        { "name": "Mongo DB", "icon": "mongodb" },
+        { "name": "Supabase", "icon": "supabase" },
+        { "name": "Prisma ORM", "icon": "prisma" },
+        { "name": "OAuth 2.0", "icon": "oauth" },
+        { "name": "VS Code", "icon": "vscode" },
+        { "name": "Git", "icon": "git" },
+        { "name": "GitHub", "icon": "github" },
+        { "name": "Postman", "icon": "postman" },
+        { "name": "GitHub Copilot", "icon": "copilot" },
+        { "name": "WebSockets", "icon": "websockets" },
+        { "name": "NumPy", "icon": "numpy" },
+        { "name": "Pandas", "icon": "pandas" }
+      ]
+    }
+
     ],
     "nonTechnical": [
       { "name": "Problem Solving", "icon": "lightbulb" },
@@ -76,14 +77,34 @@
   },
   "projects": [
     {
-      "title": "Bond - A Chat Application",
+    "title": "TapMart",
+    "type": "Project",
+    "imageTone": "gold",
+    "image": "/assets/public/assets/TapMart.png",
+    "description": "TapMart is a modern e-commerce storefront built for a smooth online shopping experience. It includes product browsing, cart management, checkout flow, order tracking, and admin product handling with a clean and responsive interface.",
+    "tech": ["React", "Node.js", "Express", "PostgreSQL", "Prisma", "Cloudinary", "JWT", "Multer"],
+    "github": "https://github.com/yourusername/tapmart",
+    "live": "https://tapmart-front.onrender.com"
+    },
+    {
+    "title": "Tap",
+    "type": "Project",
+    "imageTone": "gold",
+    "image": "/assets/public/assets/Tap.png",
+    "description": "Tap is a real-time chat application built with the MERN stack and Socket.IO. It supports one-to-one messaging, image sharing, user authentication, profiles, and live community chat rooms with room creation, private passwords, member limits, and real-time member tracking.",
+    "tech": ["MERN Stack", "Socket.IO"],
+    "github": "https://github.com/aaaditya2005/Tap",
+    "live": "tap-alpha-three.vercel.app"
+   },
+    {
+      "title": "Banking Transaction API",
       "type": "Project",
       "imageTone": "gold",
-      "image": "/assets/public/assets/Screenshot 2026-07-03 162114.png",
-      "description": "BOND is a real time chat application built using MERN stack.This application is diff from other chat application which has different features like features from whatsapp,snapchat and linkedin.Main motive to built is making emotional connect to talk.",
-      "tech": ["MERN Stack"],
-      "github": "https://github.com/aaaditya2005/Bond",
-      "live": "https://bond-chat.onrender.com/"
+      "image": "/assets/public/assets/BankingTransactionAPI.png",
+      "description": "A secure banking-style REST API built with Node.js, Express, and MongoDB. It supports JWT authentication, account management, system funding, user-to-user transfers, atomic balance updates, idempotency protection, immutable ledger entries, and transaction email notifications.",
+      "tech": ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "REST API"],
+      "github": "https://github.com/aaaditya2005/Banking-Transaction-API",
+      "live": "https://banking-transaction-api-1o8a.onrender.com/"
     }
   ],
 "experience": [
@@ -91,7 +112,7 @@
       "title": "Senior Co-ordinator",
       "place": "@RND CELL, CCA, NIT DURGAPUR",
       "period": "May 2026 - Present",
-      "description": "• Leadership & Events: Executed multiple events through cross-functional teamwork.\n\n• Mentorship & Delivery: Guided junior members as a 3rd-year Senior Coordinator, providing learning resources, project suggestions, and managing strict timelines.\n\n• Digital Growth: Started the launch of the R&D Cell's independent Instagram handle, securing approval via a long-term commitment to active content strategy.\n\n• Others: Hosted the Connect 3.0 fresher quiz event and developed domain-specific engineering projects showcased at Techmela.",
+      "description": "• Events: Executed multiple events as a team with cell mates through cross-functional teamwork.\n\n• Mentorship & Delivery: Guided junior members as a 3rd-year Senior Coordinator, providing learning resources, project suggestions, and managing strict timelines.\n\n• Digital Growth: Started the launch of the R&D Cell's independent Instagram handle, securing approval via a long-term commitment to active content strategy.\n\n• Others: Hosted the Connect 3.0 fresher quiz event and developed domain-specific engineering projects showcased at Techmela.",
       "projectLink": "https://example.com"
     }
   ],
@@ -123,7 +144,7 @@
   "achievements": [
     {
       "title": "JAVA WITH DSA",
-      "period": "09-2024",
+      "period": "12-2024",
       "description": "Learnt all DSA concepts along with Java from PW",
       "proof": "https://drive.google.com/file/d/16vqN1b_foqIhPUykUzqo2kJ8yzc3RNp4/view?usp=sharing"
     },
@@ -134,9 +155,15 @@
       "proof": "https://drive.google.com/file/d/1cPGy3np9YJ-z89hPE4MdYNs0_51r2Sr1/view?usp=sharing"
     },
     {
+      "title": "Full Stack Web Development",
+      "period": "03-2026",
+      "description": "Mastered full-stack development using the MERN stack (MongoDB, Express, React, Node.js) along with building scalable web applications.",
+      "proof": "https://drive.google.com/file/d/1v-HrOcADmTtNoOka776QzNxnSpIwNJIw/view?usp=sharing"
+    },
+    {
       "title": "Solved 400+ Programming Questions",
       "period": "2024-Present",
-      "description": "300+ diverse programming problems across competitive platforms, sharpening expertise in Bit Manipulation, Mathematics, Sql queries and Data Structures",
+      "description": "400+ diverse programming problems across competitive platforms, sharpening expertise in Sql queries and Data Structures",
       "proof": "https://codolio.com/profile/code_algo"
     }
   ]
