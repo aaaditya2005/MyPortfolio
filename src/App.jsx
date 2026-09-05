@@ -21,6 +21,7 @@ const navItems = [
   ["Skills", "skills"],
   ["Projects", "projects"],
   ["Experience", "experience"],
+  ["Responsibilities", "responsibilities"],
   ["Education", "education"],
   ["Achievements", "achievements"],
   ["Contact", "contact"]
@@ -57,7 +58,7 @@ function App() {
     );
   }
 
-  const { profile, personal, skills, projects, experience, education, achievements } = portfolio;
+  const { profile, personal, skills, projects, experience, responsibilities, education, achievements } = portfolio;
 
   return (
     <>
@@ -224,6 +225,29 @@ function App() {
   </div>
 </section>
 
+        <section id="responsibilities" className="section-shell">
+          <SectionHeader
+            kicker="Leadership"
+            title="Position of Responsibility"
+            text="Leadership and coordination roles that shaped my campus experience."
+          />
+          <div className="experience-grid">
+            {responsibilities?.map((item) => (
+              <article className="experience-card" key={`${item.title}-${item.period}`}>
+                <div className="experience-title">
+                  <span>{item.period}</span>
+                  <h3>{item.title}</h3>
+                  <p>{item.place}</p>
+                </div>
+                <p style={{ whiteSpace: "pre-line" }}>{item.description}</p>
+                <a href={item.projectLink} target="_blank" rel="noreferrer">
+                  <ExternalLink size={18} />
+                  Related Link
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
 
         <section id="education" className="section-shell education-section">
           <SectionHeader
